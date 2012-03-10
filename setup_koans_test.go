@@ -10,8 +10,6 @@ import (
   "strings"
 )
 
-var __ interface{}
-
 func TestKoans(t *testing.T) {
   testBasics()
   fmt.Printf("%c[32m", 27)
