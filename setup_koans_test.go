@@ -1,4 +1,4 @@
-package goans
+package go_koans
 
 import (
   "testing"
