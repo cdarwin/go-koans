@@ -12,13 +12,15 @@ import (
 
 func TestKoans(t *testing.T) {
   testBasics()
-  fmt.Printf("%c[32m", 27)
+  testStrings()
+  testArrays()
+
+  fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
 }
 
 func assert(o bool) {
   if !o {
-    fmt.Printf("%c[35m", 27)
-    fmt.Printf("%s\n\n", __getRecentLine())
+    fmt.Printf("\n%c[35m%s\n\n", 27, __getRecentLine())
     os.Exit(1)
   }
 }
@@ -27,5 +29,5 @@ func __getRecentLine() string {
   _, file, line, _ := runtime.Caller(2)
   buf, _ := ioutil.ReadFile(file)
   code := strings.TrimSpace(strings.Split(string(buf), "\n")[line-1])
-  return fmt.Sprintf("\n%v:%d\n%s", path.Base(file), line, code)
+  return fmt.Sprintf("%v:%d\n%s", path.Base(file), line, code)
 }
