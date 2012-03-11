@@ -10,10 +10,14 @@ import (
   "strings"
 )
 
+var __string__ string = "impossibly lame value"
+var __int__ int = -1
+var __bool__ bool = false
+
 func TestKoans(t *testing.T) {
-  testBasics()
+  //testBasics()
   testStrings()
-  testArrays()
+  //testArrays()
 
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
 }

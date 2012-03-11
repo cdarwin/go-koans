@@ -1,8 +1,5 @@
 package go_koans
 
-var __string__ string = "impossibly lame value"
-var __int__ int = -1
-
 func testArrays() {
   fruits := [4]string{"apple", "orange", "mango"}
 
