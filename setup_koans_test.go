@@ -12,6 +12,7 @@ import (
 
 var __string__ string = "impossibly lame value"
 var __int__ int = -1
+var __byte__ byte = 255
 var __bool__ bool = false
 
 func TestKoans(t *testing.T) {
