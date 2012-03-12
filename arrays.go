@@ -11,6 +11,8 @@ func testArrays() {
   assert(len(fruits) == __int__) // the length is what the length is
   assert(cap(fruits) == __int__) // it can hold no more
 
+  assert(fruits == [4]string{}) // comparing arrays is not like comparing apples and oranges
+
   tasty_fruits := fruits[1:3] // defining oneself as a variation of another
   assert(tasty_fruits[0] == __string__) // slices of arrays share some data
   assert(tasty_fruits[1] == __string__) // albeit slightly askewed
@@ -24,4 +26,8 @@ func testArrays() {
   assert(fruits[1] == __string__) // how about the second?
   assert(fruits[2] == __string__) // surely one of these must have changed
   assert(fruits[3] == __string__) // but who can know these things
+
+  veggies := [...]string{"carrot", "pea"}
+
+  assert(len(veggies) == __int__) // array literals need not repeat an obvious length
 }
