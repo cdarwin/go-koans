@@ -14,10 +14,11 @@ var __string__ string = "impossibly lame value"
 var __int__ int = -1
 var __byte__ byte = 255
 var __bool__ bool = false
+var __float32__ float32 = -1.0
 
 func TestKoans(t *testing.T) {
-  //testBasics()
-  testStrings()
+  testNumbers()
+  //testStrings()
   //testArrays()
 
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
