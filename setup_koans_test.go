@@ -22,6 +22,21 @@ func TestKoans(t *testing.T) {
   //testArrays()
   //testSlices()
 
+  // TODO: ie, gameplan
+  //testControlFlow()
+  //testEnumeration()
+  //testFiles()
+  //testVariadicFunctions()
+  //testAnonymousFunctions()
+  //testInterfaces()
+  //testMaps()
+  //testStructs()
+  //testAllocation()
+  //testPointers()
+  //testGoroutines()
+  //testChannels()
+  //testPanics()
+
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
 }
 
