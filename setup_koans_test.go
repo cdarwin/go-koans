@@ -20,7 +20,7 @@ func TestKoans(t *testing.T) {
   //testNumbers()
   //testStrings()
   //testArrays()
-  testSlices()
+  //testSlices()
 
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
 }
