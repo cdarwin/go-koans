@@ -29,10 +29,10 @@ func TestKoans(t *testing.T) {
   //testInterfaces()
   //testMaps()
   //testPointers()
-  testStructs()
+  //testStructs()
+  testAllocation()
 
   // TODO: ie, gameplan
-  //testAllocation()
   //testGoroutines()
   //testChannels()
   //testPanics()
