@@ -17,19 +17,19 @@ var __bool__ bool = false // ugh
 var __float32__ float32 = -1.0
 
 func TestKoans(t *testing.T) {
-  //aboutNumbers()
-  //aboutStrings()
-  //aboutArrays()
-  //aboutSlices()
-  //aboutControlFlow()
-  //aboutEnumeration()
-  //aboutAnonymousFunctions()
-  //aboutVariadicFunctions()
-  //aboutFiles()
-  //aboutInterfaces()
-  //aboutMaps()
-  //aboutPointers()
-  //aboutStructs()
+  aboutNumbers()
+  aboutStrings()
+  aboutArrays()
+  aboutSlices()
+  aboutControlFlow()
+  aboutEnumeration()
+  aboutAnonymousFunctions()
+  aboutVariadicFunctions()
+  aboutFiles()
+  aboutInterfaces()
+  aboutMaps()
+  aboutPointers()
+  aboutStructs()
   aboutAllocation()
 
   // TODO: ie, gameplan
