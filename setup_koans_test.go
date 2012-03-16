@@ -25,10 +25,10 @@ func TestKoans(t *testing.T) {
   //testEnumeration()
   //testAnonymousFunctions()
   //testVariadicFunctions()
-  testFiles()
+  //testFiles()
+  testInterfaces()
 
   // TODO: ie, gameplan
-  //testInterfaces()
   //testMaps()
   //testStructs()
   //testAllocation()
