@@ -21,9 +21,9 @@ func TestKoans(t *testing.T) {
   //testStrings()
   //testArrays()
   //testSlices()
+  testControlFlow()
 
   // TODO: ie, gameplan
-  //testControlFlow()
   //testEnumeration()
   //testFiles()
   //testVariadicFunctions()
