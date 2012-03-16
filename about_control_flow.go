@@ -5,9 +5,9 @@ import "fmt"
 func testControlFlow() {
   {
     a, b, c := 1, 2, 3
-    assert(a == 1) // multiple assignment
-    assert(b == 2) // can make
-    assert(c == 3) // life easier
+    assert(a == __int__) // multiple assignment
+    assert(b == __int__) // can make
+    assert(c == __int__) // life easier
   }
 
   var str string
@@ -18,14 +18,14 @@ func testControlFlow() {
     } else {
       str = "baby dont hurt me"
     }
-    assert(str == "baby dont hurt me") // no more
+    assert(str == __string__) // no more
 
     if length := len(str); length == 17 {
       str = "to be"
     } else {
       str = "or not"
     }
-    assert(str == "to be") // that is the question
+    assert(str == __string__) // that is the question
   }
 
   {
@@ -39,7 +39,7 @@ func testControlFlow() {
     case fmt.Sprintf("%s%s", hola1, hola2):
       str = "senor"
     }
-    assert(str == "hi") // cases can be of any type, even arbitrary expressions
+    assert(str == __string__) // cases can be of any type, even arbitrary expressions
 
     switch {
     case false:
@@ -47,7 +47,7 @@ func testControlFlow() {
     case true:
       str = "second"
     }
-    assert(str == "second") // in the absence of value, there is truth
+    assert(str == __string__) // in the absence of value, there is truth
   }
 
   {
@@ -55,7 +55,7 @@ func testControlFlow() {
     for i := 0; i < 5; i++ {
       n += i
     }
-    assert(n == 10) // for can have the structure with which we are all familiar
+    assert(n == __int__) // for can have the structure with which we are all familiar
   }
 
   {
@@ -66,6 +66,6 @@ func testControlFlow() {
         break
       }
     }
-    assert(n == 32) // though omitting everything creates an infinite loop
+    assert(n == __int__) // though omitting everything creates an infinite loop
   }
 }
