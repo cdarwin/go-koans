@@ -23,11 +23,11 @@ func TestKoans(t *testing.T) {
   //testSlices()
   //testControlFlow()
   //testEnumeration()
-  testAnonymousFunctions()
+  //testAnonymousFunctions()
+  testVariadicFunctions()
 
   // TODO: ie, gameplan
   //testFiles()
-  //testVariadicFunctions()
   //testInterfaces()
   //testMaps()
   //testStructs()
