@@ -2,7 +2,7 @@ package go_koans
 
 import "fmt"
 
-func testStrings() {
+func aboutStrings() {
   assert("a" + __string__ == "abc") // string concatenation need not be difficult
   assert(len("abc") == __int__) // and bounds are thoroughly checked
 

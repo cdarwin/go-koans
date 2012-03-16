@@ -1,6 +1,6 @@
 package go_koans
 
-func testStructs() {
+func aboutStructs() {
   var bob struct {
     name string
     age int

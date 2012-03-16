@@ -1,6 +1,6 @@
 package go_koans
 
-func testInterfaces() {
+func aboutInterfaces() {
   mspaint := &program{3} // mspaint is a kind of *program, which is a valid 'runner'
   runOnce(mspaint) // runOnce takes an abstract 'runner' type
 

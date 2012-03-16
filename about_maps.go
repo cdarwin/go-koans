@@ -1,6 +1,6 @@
 package go_koans
 
-func testMaps() {
+func aboutMaps() {
   ages := map[string]int{
     "bob": 10,
     "joe": 20,

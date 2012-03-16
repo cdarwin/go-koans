@@ -1,6 +1,6 @@
 package go_koans
 
-func testAnonymousFunctions() {
+func aboutAnonymousFunctions() {
   {
     i := 1
     increment := func() {

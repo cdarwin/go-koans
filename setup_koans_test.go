@@ -17,25 +17,25 @@ var __bool__ bool = false // ugh
 var __float32__ float32 = -1.0
 
 func TestKoans(t *testing.T) {
-  //testNumbers()
-  //testStrings()
-  //testArrays()
-  //testSlices()
-  //testControlFlow()
-  //testEnumeration()
-  //testAnonymousFunctions()
-  //testVariadicFunctions()
-  //testFiles()
-  //testInterfaces()
-  //testMaps()
-  //testPointers()
-  //testStructs()
-  testAllocation()
+  //aboutNumbers()
+  //aboutStrings()
+  //aboutArrays()
+  //aboutSlices()
+  //aboutControlFlow()
+  //aboutEnumeration()
+  //aboutAnonymousFunctions()
+  //aboutVariadicFunctions()
+  //aboutFiles()
+  //aboutInterfaces()
+  //aboutMaps()
+  //aboutPointers()
+  //aboutStructs()
+  aboutAllocation()
 
   // TODO: ie, gameplan
-  //testGoroutines()
-  //testChannels()
-  //testPanics()
+  //aboutGoroutines()
+  //aboutChannels()
+  //aboutPanics()
 
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
 }

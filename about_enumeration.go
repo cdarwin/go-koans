@@ -1,6 +1,6 @@
 package go_koans
 
-func testEnumeration() {
+func aboutEnumeration() {
   {
     var concatenated string
     var total int

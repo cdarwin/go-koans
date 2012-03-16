@@ -2,7 +2,7 @@ package go_koans
 
 import "fmt"
 
-func testControlFlow() {
+func aboutControlFlow() {
   {
     a, b, c := 1, 2, 3
     assert(a == __int__) // multiple assignment

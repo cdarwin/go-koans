@@ -1,6 +1,6 @@
 package go_koans
 
-func testArrays() {
+func aboutArrays() {
   fruits := [4]string{"apple", "orange", "mango"}
 
   assert(fruits[0] == __string__) // indexes begin at 0

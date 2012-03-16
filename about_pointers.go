@@ -1,6 +1,6 @@
 package go_koans
 
-func testPointers() {
+func aboutPointers() {
   {
     a := 3
     b := a // 'b' is a copy of 'a' (all assignments are copy-operations)
