@@ -4,7 +4,7 @@ import "fmt"
 
 func testStrings() {
   assert("a" + __string__ == "abc") // string concatenation need not be difficult
-  assert(len("abc") == __int__) // and bounds are thoroughly checked at compile time
+  assert(len("abc") == __int__) // and bounds are thoroughly checked
 
   assert("abc"[0] == __byte__) // their contents are reminiscent of C
 
