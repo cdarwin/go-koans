@@ -1,13 +1,13 @@
 package go_koans
 
 import (
-  "testing"
-  "os"
   "fmt"
-  "runtime"
   "io/ioutil"
+  "os"
   "path"
+  "runtime"
   "strings"
+  "testing"
 )
 
 var __string__ string = "impossibly lame value"

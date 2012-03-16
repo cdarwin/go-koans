@@ -15,7 +15,7 @@ func aboutMaps() {
 
   age, ok = ages["steven"]
   assert(age == __int__) // the zero value is used when absent
-  assert(__bool__) // though there are better ways to check for presence
+  assert(__bool__)       // though there are better ways to check for presence
 
   assert(len(ages) == __int__) // length is based on keys
 

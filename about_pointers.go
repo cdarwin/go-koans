@@ -14,7 +14,7 @@ func aboutPointers() {
     a := 3
     b := &a // 'b' is the address of 'a'
 
-    *b = *b + 2 // de-referencing 'b' means acting like a mutable copy of 'a'
+    *b = *b + 2          // de-referencing 'b' means acting like a mutable copy of 'a'
     assert(a == __int__) // pointers seem complicated at first but are actually simple
   }
 

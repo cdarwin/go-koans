@@ -7,7 +7,7 @@ func aboutAllocation() {
 
   type person struct {
     name string
-    age int
+    age  int
   }
   bob := new(person)
   assert(bob.age == __int__) // it can allocate memory for custom types as well

@@ -1,7 +1,7 @@
 package go_koans
 
 func aboutNumbers() {
-  assert(__bool__ == true) // what is truth?
+  assert(__bool__ == true)  // what is truth?
   assert(__bool__ != false) // in it there is nothing false
 
   var i int = __int__

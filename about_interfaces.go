@@ -2,7 +2,7 @@ package go_koans
 
 func aboutInterfaces() {
   mspaint := &program{3} // mspaint is a kind of *program, which is a valid 'runner'
-  runOnce(mspaint) // runOnce takes an abstract 'runner' type
+  runOnce(mspaint)       // runOnce takes an abstract 'runner' type
 
   assert(mspaint.runTimes == __int__) // conformed interfaces need not be declared, they are inferred
 }
