@@ -28,5 +28,5 @@ Since the `$GOPATH` is useful any time in Go, this is recommended:
 
 ### More fun usage
 
-    $ brew install https://raw.github.com/sdegutis/fswatch/master/brew_formula/fswatch.rb
+    $ brew install --HEAD https://raw.github.com/sdegutis/fswatch/master/brew_formula/fswatch.rb
     $ fswatch -f . go test
