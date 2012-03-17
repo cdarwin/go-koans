@@ -33,7 +33,7 @@ func TestKoans(t *testing.T) {
   aboutStructs()
   aboutAllocation()
   aboutConcurrency()
-  //aboutPanics()
+  aboutPanics()
 
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
 }
