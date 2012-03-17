@@ -15,6 +15,7 @@ var __int__ int = -1
 var __byte__ byte = 255
 var __bool__ bool = false // ugh
 var __float32__ float32 = -1.0
+var __delete_me__ bool = false
 
 func TestKoans(t *testing.T) {
   aboutNumbers()
@@ -31,10 +32,7 @@ func TestKoans(t *testing.T) {
   aboutPointers()
   aboutStructs()
   aboutAllocation()
-
-  // TODO: ie, gameplan
-  //aboutGoroutines()
-  //aboutChannels()
+  aboutConcurrency()
   //aboutPanics()
 
   fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
