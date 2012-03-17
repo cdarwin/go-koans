@@ -22,6 +22,7 @@ func TestKoans(t *testing.T) {
   aboutStrings()
   aboutArrays()
   aboutSlices()
+  aboutTypes()
   aboutControlFlow()
   aboutEnumeration()
   aboutAnonymousFunctions()
