@@ -11,7 +11,6 @@ to be under `$GOPATH/src` for `go` to see them and do all it's awesome Go-stuff.
 
     $ export GOPATH=~/my-go-projects
     $ mkdir -p $GOPATH/src
-    $ cd $GOPATH/src
 
 Since the `$GOPATH` is useful any time in Go, this is recommended:
 
@@ -19,14 +18,15 @@ Since the `$GOPATH` is useful any time in Go, this is recommended:
 
 ### Install the Koans
 
+    $ cd $GOPATH/src
     $ git clone https://sdegutis@github.com/sdegutis/go-koans.git
     $ cd go-koans
 
-### Getting Help
+### References
 
-Two super useful references are the [spec](http://weekly.golang.org/ref/spec) and the [packages](http://weekly.golang.org/pkg/) listing.
-
-You can also run the Go website locally with `godoc -http=:8080` so you don't need the internet. Then open [http://localhost:8080/ref/spec](http://localhost:8080/ref/spec) and [http://localhost:8080/pkg/](http://localhost:8080/pkg/).
+Bookmark the [spec](http://weekly.golang.org/ref/spec) and the
+[packages listing](http://weekly.golang.org/pkg/). You can also
+run the Go website locally with `godoc -http=:8080`.
 
 ### Usage
 
