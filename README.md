@@ -6,8 +6,8 @@ I can't help you out with that last one. Sorry.
 
 ### Go Setup
 
-This part is specific to go, not really the koans. All project directories need
-to be under `$GOPATH/src` for `go` to see them and do all it's awesome Go-stuff.
+After installing Go, these steps are necessary before any Go project will work. All
+project directories need to be under `$GOPATH/src` for the `go` command to be useful.
 
     $ export GOPATH=~/my-go-projects
     $ mkdir -p $GOPATH/src
