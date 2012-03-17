@@ -22,6 +22,12 @@ Since the `$GOPATH` is useful any time in Go, this is recommended:
     $ git clone https://sdegutis@github.com/sdegutis/go-koans.git
     $ cd go-koans
 
+### Getting Help
+
+Two super useful references are the [spec](http://weekly.golang.org/ref/spec) and the [packages](http://weekly.golang.org/pkg/) listing.
+
+You can also run the Go website locally with `godoc -http=:8080` so you don't need the internet. Then open [http://localhost:8080/ref/spec](http://localhost:8080/ref/spec) and [http://localhost:8080/pkg/](http://localhost:8080/pkg/).
+
 ### Usage
 
     $ go test
