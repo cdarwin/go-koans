@@ -36,3 +36,11 @@ run the Go website locally with `godoc -http=:8080`.
 
     $ brew install --HEAD https://raw.github.com/sdegutis/fswatch/master/brew_formula/fswatch.rb
     $ fswatch -f . go test
+
+### Benefaxion
+
+Anyway, diggin' it? If so, endorse me:
+
+[![endorse](http://api.coderwall.com/sdegutis/endorse.png)](http://coderwall.com/sdegutis)
+
+Thanks!
