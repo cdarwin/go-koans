@@ -10,12 +10,15 @@ import (
   "testing"
 )
 
-var __string__ string = "impossibly lame value"
-var __int__ int = -1
-var __byte__ byte = 255
-var __bool__ bool = false // ugh
-var __float32__ float32 = -1.0
-var __delete_me__ bool = false
+const (
+  __string__ string = "impossibly lame value"
+  __int__ int = -1
+  __byte__ byte = 255
+  __bool__ bool = false // ugh
+  __float32__ float32 = -1.0
+  __delete_me__ bool = false
+)
+var __runner__ runner = nil
 
 func TestKoans(t *testing.T) {
   aboutNumbers()

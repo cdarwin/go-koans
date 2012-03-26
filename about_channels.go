@@ -5,7 +5,7 @@ func aboutChannels() {
 
   assert(len(ch) == __int__) // channels are like buffers
 
-  ch<- "foo" // i mean, "metaphors are like similes"
+  ch <- "foo" // i mean, "metaphors are like similes"
 
   assert(len(ch) == __int__) // they can be queried for queued items
 
@@ -21,7 +21,7 @@ func aboutChannels() {
 
   assert(__delete_me__) // we'll need to make room for the queue, or suffer deadlocks
 
-  ch<- "bar" // this send will succeed
-  ch<- "quux" // there's enough room for this send too
-  ch<- "extra" // but the buffer only has two slots
+  ch <- "bar"   // this send will succeed
+  ch <- "quux"  // there's enough room for this send too
+  ch <- "extra" // but the buffer only has two slots
 }
