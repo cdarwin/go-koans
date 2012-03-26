@@ -33,6 +33,7 @@ func TestKoans(t *testing.T) {
   aboutPointers()
   aboutStructs()
   aboutAllocation()
+  aboutChannels()
   aboutConcurrency()
   aboutPanics()
 
