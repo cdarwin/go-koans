@@ -24,8 +24,8 @@ Since the `$GOPATH` is useful any time in Go, this is recommended:
 
 ### References
 
-Bookmark the [spec](http://weekly.golang.org/ref/spec) and the
-[packages listing](http://weekly.golang.org/pkg/). You can also
+Bookmark the [spec](http://golang.org/ref/spec) and the
+[packages listing](http://golang.org/pkg/). You can also
 run the Go website locally with `godoc -http=:8080`.
 
 ### Usage
