@@ -32,10 +32,18 @@ run the Go website locally with `godoc -http=:8080`.
 
     $ go test
 
-### More fun usage
+### Better usage
 
-    $ brew install --HEAD https://raw.github.com/sdegutis/fswatch/master/brew_formula/fswatch.rb
-    $ fswatch -f . go test
+Annoyed at having to switch between your editor and terminal, just to type `go test` over and over?
+As you should be!  So download fswatch and let it run your tests for you any time you save a file.
+
+    $ go get github.com/sdegutis/fswatch
+    $ fswatch -f . -- go test
+
+It's kind of like watchr, or so I've been told. But it's a native executable, written in Go, and
+only runs on Macs (you are using a Mac, right?) using the Apple-specific FSEvents framework. So
+it doesn't poll files or anything inefficient like that. It's very healthy for your system. And
+it's not a gem and so doesn't depend on any other programs, it's just a native compiled executable.
 
 ### Benefaxion
 
