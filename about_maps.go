@@ -11,11 +11,11 @@ func aboutMaps() {
   assert(age == __int__) // map syntax is warmly familiar
 
   age, ok := ages["bob"]
-  assert(ok == __bool__) // with a handy addition for presence checking
+  assert(ok == __bool__) // with a handy multiple-assignment variation
 
   age, ok = ages["steven"]
   assert(age == __int__) // the zero value is used when absent
-  assert(__bool__)       // though there are better ways to check for presence
+  assert(ok == __boolean__)       // though there are better ways to check for presence
 
   assert(len(ages) == __int__) // length is based on keys
 
@@ -27,5 +27,5 @@ func aboutMaps() {
 
   delete(ages, "steven")
   age, ok = ages["steven"]
-  assert(__bool__) // key/value pairs can be removed
+  assert(ok == __boolean__) // key/value pairs can be removed
 }
