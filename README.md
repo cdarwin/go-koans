@@ -14,6 +14,8 @@ run the Go website locally with `godoc -http=:8080`.
 
     $ go test
 
+Now make the failing tests pass, by replacing these types of `__variables__` with real values.
+
 ### Better usage
 
 Annoyed at having to switch between your editor and terminal, just to type `go test` over and over?
