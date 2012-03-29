@@ -4,17 +4,15 @@ Want to learn Go? Want to do it easily? Want to have fun with it? Want lots of m
 
 I can't help you out with that last one. Sorry.
 
-### Usage
-
-    $ go test
-
-See "Better usage" below for a better way to run the tests.
-
 ### References
 
 Bookmark the [spec](http://golang.org/ref/spec) and the
 [packages listing](http://golang.org/pkg/). You can also
 run the Go website locally with `godoc -http=:8080`.
+
+### Usage
+
+    $ go test
 
 ### Better usage
 
