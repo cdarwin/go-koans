@@ -11,6 +11,8 @@ I can't help you out with that last one. Sorry.
   3. Run `go test`.
   4. Make the failing tests pass, by replacing these types of `__variables__` with real values.
 
+#### Cooler usage
+
 If you want to have `go test` be run in your terminal any time you save a file and
 are using a Mac, take a look at [fswatch](http://github.com/sdegutis/fswatch).
 
