@@ -24,7 +24,7 @@ run the Go website locally with `godoc -http=:8080`.
 
 ### Go support in Vim
 
-Add this to your `~/.vimrv` file:
+Add this to your `~/.vimrc` file:
 
     set rtp+=/usr/local/go/misc/vim
     filetype plugin indent on
