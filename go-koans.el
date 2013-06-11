@@ -4,7 +4,8 @@
   (setq output (shell-command-to-string "go test"))
 
   (with-current-buffer (get-buffer-create "*go-koans*")
-        (insert output))
+    (erase-buffer)
+    (insert output))
 
 
   (when (string-match "\\(about_[A-Za-z0-9_]*.go\\):\\([0-9]+\\)" output)
