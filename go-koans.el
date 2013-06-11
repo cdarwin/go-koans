@@ -1,7 +1,12 @@
 (defun go-koans-run ()
-  "Running Go koans test from go-koans directory and goes to line where error occurs"
+  "Running Go koans test from"
   (interactive)
-  (setq output (shell-command-to-string "go test "))
+  (setq output (shell-command-to-string "go test"))
+
+  (with-current-buffer (get-buffer-create "*go-koans*")
+        (insert output))
+
+
   (when (string-match "\\(about_[A-Za-z0-9_]*.go\\):\\([0-9]+\\)" output)
 
     (let
@@ -12,7 +17,6 @@
       (goto-line line)
 
       (search-forward "__")
-
       ;;; if expand region exists run it
       ;; if you don't have it https://github.com/magnars/expand-region.el
       (if (fboundp 'er/expand-region)

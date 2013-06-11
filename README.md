@@ -41,7 +41,9 @@ and then
 
 into your `init.el` file (helper integrates with great Expand region extension from magnars: https://github.com/magnars/expand-region.el)
 
-next `cd` into your koans directory and press `C-c C-r` - Emacs will open file and goto line where error occurs
+next `cd` into your koans directory, open some go file and press `C-c C-r` - Emacs will open file and goto line where error occurs
+
+If your code failed you can see at `*go-koans*` buffer there will be shell output from `go test` command
 
 
 ### Benefaxion
