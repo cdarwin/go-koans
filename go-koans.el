@@ -1,6 +1,7 @@
 (defun go-koans-run ()
   "Running Go koans test from"
   (interactive)
+  (save-buffer)
   (setq output (shell-command-to-string "go test"))
 
   (with-current-buffer (get-buffer-create "*go-koans*")
@@ -17,10 +18,11 @@
       (find-file (expand-file-name file))
       (goto-line line)
 
-      (search-forward "__")
+
       ;;; if expand region exists run it
       ;; if you don't have it https://github.com/magnars/expand-region.el
       (if (fboundp 'er/expand-region)
+          (search-forward "__")
           (er/expand-region 1))
       )))
 
