@@ -6,7 +6,8 @@ func aboutStrings() {
   assert("a"+__string__ == "abc") // string concatenation need not be difficult
   assert(len("abc") == __int__)   // and bounds are thoroughly checked
 
-  assert("abc"[0] == __byte__) // their contents are reminiscent of C
+  c := "abc"[0]
+  assert(c == __byte__) // their contents are reminiscent of C
 
   assert("smith"[2:] == __string__)  // slicing may omit the end point
   assert("smith"[:4] == __string__)  // or the beginning
