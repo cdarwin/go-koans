@@ -6,7 +6,7 @@ I can't help you out with that last one. Sorry.
 
 ### Usage
 
-  1. [Install Go](http://code.google.com/p/go/downloads/list).
+  1. [Install Go](https://golang.org/dl/).
   2. Clone this repo.
   3. Run `go test`.
   4. Make the failing tests pass, by replacing these types of `__variables__` with real values.
