@@ -16,7 +16,7 @@ func aboutControlFlow() {
     if 3.14 == 3 {
       str = "what is love?"
     } else {
-      str = "baby dont hurt me"
+      str = "baby don't hurt me"
     }
     assert(str == __string__) // no more
 
