@@ -1,4 +1,4 @@
-package go_koans
+package gokoans
 
 type coolNumber int
 
