@@ -14,7 +14,7 @@ I can't help you out with that last one. Sorry.
 #### Cooler usage
 
 If you want to have `go test` be run in your terminal any time you save a file and
-are using a Mac, take a look at [fswatch](http://github.com/sdegutis/fswatch).
+are using a Mac, take a look at [fswatch](https://github.com/emcrisostomo/fswatch).
 
 ### Helpful References
 
