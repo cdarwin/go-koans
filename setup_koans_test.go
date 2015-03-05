@@ -44,7 +44,7 @@ func TestKoans(t *testing.T) {
 	aboutConcurrency()
 	aboutPanics()
 
-	fmt.Printf("\n%c[32;1mYou won life. Good job.\n\n", 27)
+	fmt.Printf("\n%c[32;1mYou won life. Good job.%c[0m\n\n", 27, 27)
 }
 
 func assert(o bool) {
