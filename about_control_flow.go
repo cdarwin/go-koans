@@ -60,6 +60,14 @@ func aboutControlFlow() {
 
 	{
 		n := 1
+		for n < 20 {
+			n += 5
+		}
+		assert(n == __int__) // for can have the structure normally known as while
+	}
+
+	{
+		n := 1
 		for {
 			n *= 2
 			if n > 20 {
