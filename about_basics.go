@@ -7,7 +7,7 @@ func aboutBasics() {
 	var i int = __int__
 	assert(i == 1.0000000000000000000000000000000000000) // precision is in the eye of the beholder
 
-	k := _int_ //short assignment can be used, as well
+	k := __int__ //short assignment can be used, as well
 	assert(k == 1.0000000000000000000000000000000000000)
 
 	assert(5%2 == __int__)
