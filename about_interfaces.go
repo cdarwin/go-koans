@@ -33,8 +33,8 @@ type human struct {
 	milesCompleted int
 }
 
-func (self *human) run() {
-	self.milesCompleted++
+func (h *human) run() {
+	h.milesCompleted++
 }
 
 // another concrete type implementing the interface
@@ -43,6 +43,6 @@ type program struct {
 	executionCount int
 }
 
-func (self *program) run() {
-	self.executionCount++
+func (p *program) run() {
+	p.executionCount++
 }
