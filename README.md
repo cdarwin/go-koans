@@ -1,39 +1,55 @@
-## Go Koans
+# Go Koans
 
-Want to learn Go? Want to do it easily? Want to have fun with it? Want lots of money?
+I'm not sure how this ever got popular under my namespace, but it seems to have
+enough interest that I feel compelled to maintain it now. The original author,
+[Steven Degutis](https://github.com/sdegutis), committed the initial suite of
+tests, 4c5e766, on Mar 10, 2012. I don't recall now how I discovered the
+initial codebase beyond searching for "go koans" on GitHub. I do recall that
+I was enlightened considerably by [Ruby Koans](http://rubykoans.com/) and
+something similarly enlightening on my journey to the Nirvana of Go could be
+a blessing for anyone.
 
-I can't help you out with that last one. Sorry.
+Since my discovery of [The Go Programming Language](https://golang.org/), the
+language and development environments have changed significantly. I will do my
+best to balance current best practices and a low barrier of entry for newcomers
+(whom I assume to be the vast majority of those with interest in this
+repository). I will try to keep up to date with the latest stable releases. I
+hope I can rely on this wonderful community to help me with this.
 
-### Usage
+## Native Usage
 
-  1. [Install Go](https://golang.org/dl/).
-  2. Clone this repo.
-  3. Run `go test`.
-  4. Make the failing tests pass, by replacing these types of `__variables__` with real values.
+If you prefer to do things "natively" you may download, install, and configure
+the suite of tools provided by the binary or source distribution of your
+choice from the [Downloads page](https://golang.org/dl/).
 
-#### Cooler usage
+1. Run `go test`.
+1. Make the failing tests pass, by replacing these types of `__variables__` with real values.
 
-If you want to have `go test` be run in your terminal any time you save a file and
-are using a Mac, take a look at [fswatch](https://github.com/emcrisostomo/fswatch).
+## Docker Usage
 
-### Helpful References
+I have found that using [Docker](https://www.docker.com/) helps me keep my
+development environment clean and portable. Here is an example of how I might
+set up an environment dedicated to go through these koans.
 
-Bookmark the [spec](http://golang.org/ref/spec) and the
-[packages listing](http://golang.org/pkg/). You can also
-run the Go website locally with `godoc -http=:8080`.
+Install/Setup:
 
-### Go support in Vim
+```shell
+luser@lolcathost:~ $ docker-machine create -d virtualbox golang
+luser@lolcathost:~ $ eval $(docker-machine env golang)
+luser@lolcathost:~ $ docker pull library/golang:1.6.0-alpine
+luser@lolcathost:~ $ docker run --rm -ti -v "$PWD":/usr/src/koans -w /usr/src/koans golang:1.6.0-alpine /bin/sh
+```
 
-Add this to your `~/.vimrc` file:
+Now with an interactive shell inside of a minimal container you may itterate
+through the same steps to enlightenment described above.
 
-    set rtp+=/usr/local/go/misc/vim
-    filetype plugin indent on
-    syntax on
+## Helpful References
 
-### Benefaxion
+Bookmark the [spec](http://golang.org/ref/spec) and the [packages listing](http://golang.org/pkg/).
+You can also run the Go website locally with `godoc -http=:8080`.
 
-Anyway, diggin' it? If so, endorse me:
+## Go support in Vim
 
-[![endorse](http://api.coderwall.com/sdegutis/endorse.png)](http://coderwall.com/sdegutis)
-
-Thanks!
+If you have an interest in a more fany vim setup, I urge you to consider
+the post on the [Go Development Environment for Vim](https://blog.gopheracademy.com/vimgo-development-environment/)
+on the Gopher Academy Blog.
