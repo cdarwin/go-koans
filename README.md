@@ -53,3 +53,8 @@ You can also run the Go website locally with `godoc -http=:8080`.
 If you have an interest in a more fany vim setup, I urge you to consider
 the post on the [Go Development Environment for Vim](https://blog.gopheracademy.com/vimgo-development-environment/)
 on the Gopher Academy Blog.
+
+## Go-Koans support in Emacs
+
+[Jacek Wysocki](https://github.com/exu) has provided some nice Go Koans helper
+scripts for Emacs users at [exu/go-koans.el](https://github.com/exu/go-koans.el)
