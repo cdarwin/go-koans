@@ -50,7 +50,7 @@ You can also run the Go website locally with `godoc -http=:8080`.
 
 ## Go support in Vim
 
-If you have an interest in a more fany vim setup, I urge you to consider
+If you have an interest in a more fancy vim setup, I urge you to consider
 the post on the [Go Development Environment for Vim](https://blog.gopheracademy.com/vimgo-development-environment/)
 on the Gopher Academy Blog.
 
