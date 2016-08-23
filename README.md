@@ -40,7 +40,7 @@ luser@lolcathost:~ $ docker pull library/golang:1.6.0-alpine
 luser@lolcathost:~ $ docker run --rm -ti -v "$PWD":/usr/src/koans -w /usr/src/koans golang:1.6.0-alpine /bin/sh
 ```
 
-Now with an interactive shell inside of a minimal container you may itterate
+Now with an interactive shell inside of a minimal container you may iterate
 through the same steps to enlightenment described above.
 
 ## Helpful References
