@@ -1,4 +1,4 @@
-package go_koans
+package gokoans
 
 import "io/ioutil"
 import "strings"

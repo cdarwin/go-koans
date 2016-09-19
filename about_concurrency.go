@@ -1,4 +1,4 @@
-package go_koans
+package gokoans
 
 func isPrimeNumber(possiblePrime int) bool {
 	for underPrime := 2; underPrime < possiblePrime; underPrime++ {
