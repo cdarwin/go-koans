@@ -8,22 +8,24 @@ func aboutAnonymousFunctions() {
 		}
 		increment()
 
-		assert(i == __int__) // closures function in an obvious way
+		assert(i == 2) // closures function in an obvious way
 	}
 
 	{
 		i := 1
-		increment := func(x int) {
-			x++
+		increment := func(x *int) {
+            print(i) // <-- i = 1
+			*x++ 
 		}
-		increment(i)
+        // Modified original example to pass in pointer
+		increment(&i)
 
-		assert(i == __int__) // although anonymous functions need not always be closures
+		assert(i == 2) // although anonymous functions need not always be closures
 	}
 
 	{
 		double := func(x int) int { return x * 2 }
 
-		assert(double(3) == __int__) // they can do anything our hearts desire
+		assert(double(3) == 6) // they can do anything our hearts desire
 	}
 }
