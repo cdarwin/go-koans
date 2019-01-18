@@ -22,7 +22,14 @@ If you prefer to do things "natively" you may download, install, and configure
 the suite of tools provided by the binary or source distribution of your
 choice from the [Downloads page](https://golang.org/dl/).
 
-1. Run `go test`.
+To set up this repo locally, run the following on the command-line:
+```
+go get github.com/cdarwin/go-koans
+cd ${GOPATH}/src/github.com/cdarwin/go-koans
+```
+
+To run the koans:
+1. run `go test`.
 1. Make the failing tests pass, by replacing these types of `__variables__` with real values.
 
 ## Docker Usage
