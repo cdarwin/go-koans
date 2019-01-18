@@ -15,20 +15,20 @@ func aboutBasics() {
 	assert(5^2 == __int__)
 
 	var x int
-	assert(x == __int__) // zero values are valued in Go
+	assert(x == __int__) // listen to the darkness of an unset variable
 
 	var f float32
-	assert(f == __float32__) // for types of all types
+	assert(f == __float32__) // what is the code that is not written?
 
 	var s string
-	assert(s == __string__) // both typical or atypical types
+	assert(s == __string__) // consider the emptiness of a string
 
 	var c struct {
 		x int
 		f float32
 		s string
 	}
-	assert(c.x == __int__)     // and types within composite types
-	assert(c.f == __float32__) // which match the other types
-	assert(c.s == __string__)  // in a typical way
+	assert(c.x == __int__)     // create meaning from emptiness
+	assert(c.f == __float32__) // undefined structure isn't
+	assert(c.s == __string__)  // what is the structure of a string?
 }
