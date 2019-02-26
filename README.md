@@ -27,21 +27,9 @@ choice from the [Downloads page](https://golang.org/dl/).
 
 ## Docker Usage
 
-I have found that using [Docker](https://www.docker.com/) helps me keep my
-development environment clean and portable. Here is an example of how I might
-set up an environment dedicated to go through these koans.
-
-Install/Setup:
-
 ```shell
-luser@lolcathost:~ $ docker-machine create -d virtualbox golang
-luser@lolcathost:~ $ eval $(docker-machine env golang)
-luser@lolcathost:~ $ docker pull library/golang:1.6.0-alpine
-luser@lolcathost:~ $ docker run --rm -ti -v "$PWD":/usr/src/koans -w /usr/src/koans golang:1.6.0-alpine /bin/sh
+$ ./docker.sh
 ```
-
-Now with an interactive shell inside of a minimal container you may iterate
-through the same steps to enlightenment described above.
 
 ## Helpful References
 
