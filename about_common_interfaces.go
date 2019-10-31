@@ -16,6 +16,8 @@ func aboutCommonInterfaces() {
 		   $ godoc -http=:8080
 		   $ open http://localhost:8080/pkg/io/
 		   $ open http://localhost:8080/pkg/bytes/
+
+       See https://golang.org/doc/go1.13#godoc to install godoc if it's not installed
 		*/
 
 		assert(out.String() == "hello world") // get data from the io.Reader to the io.Writer
