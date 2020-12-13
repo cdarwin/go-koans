@@ -8,8 +8,8 @@ func aboutStructs() {
 	bob.name = "bob"
 	bob.age = 30
 
-	assert(bob.name == __string__) // structs are collections of named variables
-	assert(bob.age == __int__)     // each field has both setter and getter behavior
+	assert(bob.name == "bob") // structs are collections of named variables
+	assert(bob.age == 30)     // each field has both setter and getter behavior
 
 	type person struct {
 		name string
@@ -18,7 +18,7 @@ func aboutStructs() {
 
 	var john person
 	john.name = "bob"
-	john.age = __int__
+	john.age = 30
 
 	assert(bob == john) // assuredly, bob is certainly not john.. yet
 }
