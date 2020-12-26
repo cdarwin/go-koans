@@ -1,0 +1,4 @@
+image: golang:alpine
+
+tasks:
+  - command: go test
