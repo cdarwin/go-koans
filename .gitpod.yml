@@ -1,4 +1,5 @@
-image: golang:alpine
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
-  - command: go test
+  - command: gow -c test
