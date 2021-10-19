@@ -3,7 +3,7 @@ package go_koans
 func aboutAllocation() {
 	a := new(int)
 	*a = 3
-	assert(*a == __int__) // new() creates a pointer to the given type, like malloc() in C
+	assert(*a == __int__) // new() creates a pointer to the given type, like calloc() in C
 
 	type person struct {
 		name string
