@@ -9,15 +9,15 @@ func aboutSlices() {
 	tasty_fruits := fruits[1:3]           // we can even slice slices
 	assert(tasty_fruits[0] == __string__) // slices of slices also share the underlying data
 
-	pregnancy_slots := []string{"baby", "baby", "lemon"}
-	assert(cap(pregnancy_slots) == __int__) // the capacity is initially the length
+	hero_slots := []string{"Leia", "Luke", "Ray"}
+	assert(cap(hero_slots) == __int__) // the capacity is initially the length
 
-	pregnancy_slots = append(pregnancy_slots, "baby!")
-	assert(len(pregnancy_slots) == __int__) // slices can be extended with append(), much like realloc in C
-	assert(cap(pregnancy_slots) == __int__) // but with better optimizations
+	hero_slots = append(hero_slots, "Han")
+	assert(len(hero_slots) == __int__) // slices can be extended with append(), much like realloc in C
+	assert(cap(hero_slots) == __int__) // but with better optimizations
 
-	pregnancy_slots = append(pregnancy_slots, "another baby!?", "yet another, oh dear!", "they must be Catholic")
+	hero_slots = append(hero_slots, "We don't", "need another", "hero")
 
-	assert(len(pregnancy_slots) == __int__) // append() can take N arguments to append to the slice
-	assert(cap(pregnancy_slots) == __int__) // the capacity optimizations have a guessable algorithm
+	assert(len(hero_slots) == __int__) // append() can take N arguments to append to the slice
+	assert(cap(hero_slots) == __int__) // the capacity optimizations have a guessable algorithm
 }
